@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/main_activity">
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/btn1"
+      android:text="Next"
+      android:height="20dp"
+      android:layout_marginTop="50dp"
+      android:layout_marginLeft="150dp"/>
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+    android:id="@+id/fragmentContainer"
+    android:layout_marginTop="120dp"
+      android:layout_marginLeft="50dp"
+      android:layout_marginBottom="200dp"
+      android:layout_marginRight="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1"
+        android:id="@+id/btn2"
+        android:text="Previous"
+        android:height="20dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="150dp"/>
+
+
+</RelativeLayout>
